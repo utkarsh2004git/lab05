@@ -21,3 +21,13 @@ Route::get("/",function(){
 
 
 Route::get("/home",[DemoController::class,'index']);
+
+
+Route::get('/layout1',function(){
+    return view('layout1');
+}
+);
+Route::get('/layout2',function(){
+    return view('layout2');
+}
+);
